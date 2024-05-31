@@ -1,3 +1,4 @@
+#These are some functions for word processing
 # Function to check if canidate word is in target word. returns true/false
 def wordinword(canidate, target):
     if len(canidate) > len(target):
