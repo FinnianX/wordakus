@@ -1,3 +1,5 @@
+#this is needed wordfile = open("your file here", "r")
+#file_data = wordfile.read()
 # Function to check if canidate word is in target word. returns true/false
 def wordinword(canidate, target):
     if len(canidate) > len(target):
